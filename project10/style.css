@@ -1,0 +1,246 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+body{font-family: 'Roboto', sans-serif;}
+header
+{
+ width: 100%;
+ height: 100vh;
+ background: url(img/fon.jpg) center center no-repeat;
+ background-size: cover;
+ color: white;
+ text-align: center;
+}
+header nav
+{
+ width: 80%;
+ margin: auto;
+ padding-top: 90px;
+ display: flex;
+ justify-content: space-between;
+    font-size: 4em;
+}
+ header h1
+{
+ text-align: center;
+  font-size: 6em;
+    text-transform: uppercase;
+    padding-top: 12%;
+}
+header p
+{
+ text-align: center;
+   font-size: 1.2em;
+  padding-top: 1%;
+}
+header button
+{
+ border: 0;
+ background: 0;
+ color: white;
+ padding: 1em 3em;
+ border-radius: 60px;
+ border: 1px solid white;
+ font-size: 14px;
+ font-weight: 700;
+ letter-spacing: 1px;
+}
+header button:hover
+{
+ background: white;
+ color: #425E91;
+ transition: 1s;
+ cursor: pointer;
+}
+.man
+{
+ width: 80%;
+ height: 700px;
+ /*background: red;*/
+ margin: auto;
+ display: flex;
+ justify-content: space-between;
+}
+.man .box
+{
+ flex-basis: 60%;
+ /*background: orange;*/
+}
+.box:nth-child(1)
+{
+ /*background: red;*/
+ flex-basis: 40%;
+}
+.box img 
+{
+ width: 70%;
+ margin-top: 15%;
+}
+.box h2
+{
+ padding-top: 15%;
+ color: #4E4E4E;
+ font-size: 2em;
+ padding-left: 40px;
+}
+.box p
+{
+ padding-left: 40px;
+ text-align: justify;
+ margin-top: 8%;
+}
+.box button
+{
+ border: 0;
+    background: #ff2b4a;
+    border:1px solid #ff2b4a;
+    padding: 1em 3.8em;
+    color: white;
+    margin-left: 40px;
+    font-size: 14px;
+    font-weight: 700;
+ letter-spacing: 1px;
+}
+.box button:hover
+{
+ background: white;
+ color: #ff2b4a;
+ cursor: pointer;
+ transition: 1s;
+}
+
+@media (min-width: 320px) and (max-width: 600px)
+{
+
+
+
+header nav
+{
+width: 80%;
+margin: auto;
+padding-top: 70px;
+display: flex;
+justify-content: space-between;
+font-size: 1em;
+}
+header h1
+{
+font-size: 1.5em;
+padding-top: 14%;
+}
+header p
+{
+font-size: 0.6em;
+padding: 1% 0;
+}
+
+
+
+header button
+{
+border: 0;
+background: 0;
+color: white;
+padding: 0.8em 2.5em;
+border-radius: 60px;
+border:1px solid white;
+font-size: 12px;
+font-weight: 700;
+letter-spacing: 1px;
+margin-top: 20px;
+outline: none;
+}
+/*-------------start man--------------*/
+
+
+
+.man
+{
+width: 80%;
+height: 470px;
+margin:auto;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+overflow: hidden;
+}
+.man .box
+{
+flex-basis: 95%;
+/*background: orange;*/
+}
+
+
+
+.box:nth-child(1)
+{
+
+
+
+display: none;
+}
+.box h2
+{
+padding-top: 15%;
+color: #4e4e4e;
+font-size: 1em;
+padding-left: 0px;
+}
+
+
+
+.box p
+{
+padding-left: 0px;
+text-align: justify;
+margin-top:8%;
+font-size: 14px;
+}
+
+
+
+.box button
+{
+border:0;
+background: #ff2b4a;
+border:1px solid #ff2b4a;
+padding: 1em 3.8em;
+color: white;
+/*margin-left:0;*/
+width: 280px;
+margin: auto;
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 1px;
+margin-top: 30px;
+outline: none;
+}
+.box button:hover
+{
+background: white;
+color: #ff2b4a;
+cursor: pointer;
+transition: 1s;
+}
+.wrapper
+{
+	width: 100%;
+	height: 650px;
+	background: #f6f6f6;
+	text-align: center;
+	padding: 80px 0;
+}
+.wrapper .wrapper_working
+{
+	width: 80%;
+	margin: 40px auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: 
+}
+
+
+/*-------------end man--------------*/
+}
